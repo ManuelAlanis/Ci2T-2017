@@ -828,3 +828,133 @@ responsive area
   		font-size: 10px;
   	}
 }
+
+/* Estilos para 'Aviso de Privasidad' & 'Formulario de Contacto'*/
+.title-aviso-privacidad{
+	background-color:green;
+	font-size: 70px;
+	color: white;
+	text-align: center;
+	margin-top: 160px;
+	margin-bottom: 10px;
+}
+
+.aviso-privacidad {
+	border: 1px solid #000;
+	padding: 30px;
+	text-align: justify;
+	font-size: 24px;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.importante-title{
+	background: #3a9dca;
+	font-size: 70px;
+	color: white;
+	text-align: center;
+	margin: auto;
+	height: 80px;
+	width: 250px;
+	
+}
+
+.titulos-contacto{
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	float:left;
+	margin-bottom: 10px;
+}
+
+form{
+	width: 600px;
+	margin: auto;
+	background: rgba(0,0,0,0.4);
+	padding: 30px 20px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-radius: 7px;
+	padding-bottom:5px;
+	padding-top:7px;
+}
+
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	padding-left:50px;
+	background-size: 30px 30px;
+	background-position: 11px 5px;
+	background-repeat: no-repeat;
+}
+
+.name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	
+}
+
+input{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	
+}
+
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	
+}
+
+#boton{
+	background: green;
+	color: #fff;
+	padding: 20px;
+	width: 100px;
+	border: #fbfbfb solid 4px;
+	font-size:24px;
+}
+
+#boton:hover{
+	cursor: pointer;
+	background-color: #3a9dca;
+	transition: 0.7s;
+}
+
+@media (max-width:600px){
+	form{
+		width: 100%;
+	}
+	#dir-con{
+		width: 10;
+	}
+	
+}
+
+#dir-con{
+	width: 100%;
+	max-width:250px;
+	margin: auto;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-radius: 7px;
+	padding-bottom:5px;
+	padding-top:7px;
+	border: green solid 4px;
+	font-size: 18px;
+}
+
+.foto-vi{
+	width: 208px;
+	border-radius: 7px;
+	margin: auto;
+	border: green solid 4px;
+}
+
+/* FIN  de    Estilos para 'Aviso de Privasidad' & 'Formulario de Contacto'*/
