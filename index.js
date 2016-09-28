@@ -13,8 +13,8 @@ app.config(function($routeProvider) {
     .when("/home", {
         templateUrl : "slider.html"
     })
-    .when("/home", {
-        templateUrl : "slider.html"
+    .when("/papers", {
+        templateUrl : "papers.html"
     })
     .when("/contact", {
         templateUrl : "contacto.html"
