@@ -16,6 +16,9 @@ app.config(function($routeProvider) {
     .when("/papers", {
         templateUrl : "papers.html"
     })
+    .when("/extenso", {
+        templateUrl : "extenso.html"
+    })
     .when("/lineamientos", {
         templateUrl : "lineamientos.html"
     })
