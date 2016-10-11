@@ -1,4 +1,5 @@
 /* ci2t styles */
+
 #ci-button{
 	color: white;
 	background: green;
@@ -123,6 +124,21 @@ li a.active{
 }
 .carousel-caption button{
 	width: 240px;
+	height: 60px;
+	background: #3a9ecb;
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+	border:0;
+	transition:all .5s ease 0s;
+	-webkit-transition:all .5s ease 0s;
+	-moz-transition:all .5s ease 0s;
+	-o-transition:all .5s ease 0s;
+	-ms-transition:all .5s ease 0s;
+}
+
+.butt{
+	width: 2400px;
 	height: 60px;
 	background: #3a9ecb;
 	color: #fff;
@@ -870,7 +886,7 @@ responsive area
 }
 
 form{
-	width: 500px;
+	
 	margin: auto;
 	background: rgba(0,0,0,0.4);
 	padding: 30px 20px;
@@ -879,7 +895,7 @@ form{
 	margin-bottom: 20px;
 	border-radius: 7px;
 	padding-bottom:5px;
-	padding-top:7px;
+	
 }
 
 input, textarea{
@@ -960,3 +976,4 @@ textarea{
 }
 
 /* FIN  de    Estilos para 'Aviso de Privasidad' & 'Formulario de Contacto'*/
+
