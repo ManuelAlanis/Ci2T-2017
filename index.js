@@ -19,8 +19,14 @@ app.config(function($routeProvider) {
     .when("/extenso", {
         templateUrl : "extenso.html"
     })
+    .when("/sede", {
+        templateUrl : "sede.html"
+    })
     .when("/lineamientos", {
         templateUrl : "lineamientos.html"
+    })
+    .when("/programa", {
+        templateUrl : "programa.html"
     })
     .when("/contact", {
         templateUrl : "contacto.html"
