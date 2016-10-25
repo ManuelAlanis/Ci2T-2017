@@ -22,6 +22,9 @@ app.config(function($routeProvider) {
     .when("/sede", {
         templateUrl : "sede.html"
     })
+    .when("/ci2t", {
+        templateUrl : "ci2t.html"
+    })
     .when("/lineamientos", {
         templateUrl : "lineamientos.html"
     })
