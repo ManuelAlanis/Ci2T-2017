@@ -45,7 +45,7 @@ return(mail($sPara, $sAsunto, $sTexto, $sCabeceras));
 }
 
 //cambiar aqui el email 
-if (form_mail("alanism@uabc.edu.mx", "REGISTRO EXTENSO-".$_POST[Nombre], 
+if (form_mail("alanism@uabc.edu.mx,dtrujillotoledo@uabc.edu.mx", "REGISTRO EXTENSO-".$_POST[Nombre], 
 "Los datos introducidos en el formulario son:\n\n", $_POST[email])) 
  header( 'Location: http://ci2tijuana.org' ) ;
 // echo "Su formulario ha sido enviado con exito"; 
