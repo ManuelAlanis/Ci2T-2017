@@ -97,7 +97,9 @@ li a.active{
   margin-top: 4px;
 }
 
-
+.btn-green{
+	background: green;
+}
 
 /*slider area*/
 .slider-row{
