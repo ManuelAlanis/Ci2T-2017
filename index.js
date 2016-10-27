@@ -19,6 +19,12 @@ app.config(function($routeProvider) {
     .when("/extenso", {
         templateUrl : "extenso.html"
     })
+    .when("/conocer", {
+        templateUrl : "conocer.html"
+    })
+    .when("/privacidad", {
+        templateUrl : "privacidad.html"
+    })
     .when("/sede", {
         templateUrl : "sede.html"
     })
