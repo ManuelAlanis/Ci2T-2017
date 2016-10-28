@@ -421,7 +421,8 @@ li a.active{
 
 /*contact section*/
 .contact-caption{
-	background: #3a9dca;
+	background: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
 }
 .contact-heading h2{
 	color: #fff;
@@ -433,20 +434,20 @@ li a.active{
 .contact-info h3{
 	padding-left: 0;
 	font-size: 30px;
-	color: #fff;
+	color: #fbfbfb;
 	text-transform: uppercase;
 	font-weight: bold;
-	border-bottom: 1px solid #13849c;
+	border-bottom: 1px solid #fbfbfb;
 	padding-bottom: 12px;
 	margin-bottom: 0;
 }
 .contact-form h3{
 	padding-left: 0;
 	font-size: 30px;
-	color: #fff;
+	color: #fbfbfb;
 	text-transform: uppercase;
 	font-weight: bold;
-	border-bottom: 1px solid #13849c;
+	border-bottom: 1px solid #fbfbfb;
 	padding-bottom: 12px;
 	margin-bottom: 0;
 }
@@ -454,6 +455,11 @@ li a.active{
 	margin: 0;
 	padding: 0;
 }
+
+.link-contact{
+	color: #00FF00;
+}
+
 .contact-info ul li{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -488,11 +494,11 @@ li a.active{
 	margin-bottom: 12px;
 }
 .info-detail{
-	border-top: 1px solid #53cde5;
+	border-top: 1px solid #fef359;
 	padding-top: 15px;
 }
 .form{
-	border-top: 1px solid #53cde5;
+	border-top: 1px solid #fef359;
 	padding-top: 15px;
 	text-align: right;
 	
@@ -513,6 +519,9 @@ li a.active{
 }
 .contact-form{
 	padding-right: 40px;
+}
+.info-contact-palle{
+	color: white;
 }
 
 /*gmap*/
@@ -658,6 +667,9 @@ responsive area
   	.person-detail p {
   		font-size: 12px;
   	}
+	iframe{
+		width: 400px;
+	}
 
 }
 
@@ -690,12 +702,16 @@ responsive area
 		height: 1050px;
 	}
 	.contact{
-		margin-top:-1050px;
-		height: 1050px;
+		margin-top:-900px;
+		height: 1230px;
 	}
 	.contact-caption {
 	 margin-top: 110px;
 	}
+	.featurette-divider{
+		margin-top:400px;
+	}
+	
 }
 
 /* xs */
@@ -724,8 +740,8 @@ responsive area
 		height: 1120px;
 	}
 	.contact{
-		height: 1120px;
-		margin-top: -1120px;
+		height: 1300px;
+		margin-top: -920px;
 	}
 	h2 {
 	  font-size: 70px !important;
@@ -741,6 +757,9 @@ responsive area
 	}
 	.contact-caption {
 	  margin-top: 140px;
+	}
+	.featurette-divider{
+		margin-top:400px;
 	}
 }
 
@@ -807,7 +826,7 @@ responsive area
 		height: 950px;
 	}
 	.contact{
-		height: 950px;
+		height: 1250px;
 		margin-top: -950px;
 	}
 	.contact-heading h2 {
@@ -847,6 +866,12 @@ responsive area
 	.footer p {
   		font-size: 10px;
   	}
+	.featurette-divider{
+		margin-top:320px;
+	}
+	iframe{
+		width: 280px;
+	}
 }
 
 /* Estilos para 'Aviso de Privasidad' & 'Formulario de Contacto'*/
