@@ -842,7 +842,7 @@ responsive area
 	  margin-left: 8px;
 	}
 	.contact-info ul li {
-	  font-size: 10px;
+	  font-size: 23px;
 	}
 	.contact-info i.fa {
 	  font-size: 13px;
@@ -850,7 +850,7 @@ responsive area
 	  height: 18px;
 	}
 	.contact-info, .contact-form{
-		padding: 10px;
+		padding: 23px;
 	}
 	.contact-form h3 {
 	  font-size: 25px;
