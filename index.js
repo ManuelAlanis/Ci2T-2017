@@ -19,6 +19,9 @@ app.config(function($routeProvider) {
 	.when("/fechas", {
         templateUrl : "fechas.html"
     })
+    .when("/articulo", {
+        templateUrl : "articulo.html"
+    })
     .when("/extenso", {
         templateUrl : "extenso.html"
     })
