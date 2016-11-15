@@ -51,6 +51,9 @@
 	.px23{
 		font-size: 23px !important;
 	}
+	.white-text{
+		color: white !important;
+	}
 </style>
 <!-- contact section starts here -->
 			<section class="contact">
@@ -60,16 +63,14 @@
 								<div class="contact-heading text-center">
 									<h2>Contacto</h2>
 								</div>
-								<div class="col-md-5 text-left">
+								<div class="col-md-5 text-left link-contact">
 									<h3>Dirección:</h3>
 									<div class="">
 					      				<address>						 
-											<p class="" style="font-size: 23px !important;">Tijuana, B.C, México</p>
-									   		<p class="" style="font-size: 23px !important;">Telefono: +52 664 979 75 00 | Ext.54320</p>
+											<p class="white-text" style="font-size: 23px !important;">Tijuana, B.C, México</p>
+									   		<p class="white-text" style="font-size: 23px !important;">Telefono: +52 664 979 75 00 | Ext.54320</p>
 									   		<br>
 									 	 	<p class="" style="font-size: 23px !important;">Email: <a href="#" class="link-contact" >ci2t@uabc.edu.mx</a>
-												Siguenos en: <a target="_blank" class="link-contact" href="https://www.facebook.com/ci2tijuana">Facebook</a>
-												<p class="">Siguenos en: <a target="_blank" class="link-contact" href="https://twitter.com/ci2tijuana">Twitter</a>
 									   		</p>
 									   	</address>
 										<!--mapa agregado -->
@@ -80,13 +81,14 @@
 								<div class="col-md-6 col-md-offset-1 contact-form">
 									<h3>Mensaje</h3>
 									<br>
-									<form class="form">
-										<input class="name" type="text" placeholder="Nombre">
-										<input class="email" type="email" placeholder="Email">
-										<input class="phone" type="text" placeholder="Celular">
-										<textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
-										<input class="submit-btn" type="submit" value="Enviar">
-									</form>
+									<form class="contact_form form" name='formulario' id='formulario' method='post' action='php/upload.php' target='_self' enctype="multipart/form-data"> 
+									    <input class="form-control" placeholder="Escribe tu nombre completo"type='text' name='Nombre' id='Nombre'>
+									    <input  class="form-control" type='text' name='email' id='email' placeholder="Correo electrónico del primer autor">
+									    <input class="form-control message" placeholder="Asunto" type='text' name='asunto' id='asunto' />
+									    <textarea class="form-control text-textarea" placeholder="Mensaje, no mas de 100 palabras" name="mensaje" cols="50" rows="4" id="mensaje"></textarea>
+									    <br>
+									    <button  style="font-size: 30px;" class="btn btn-large btn-success" type="submit"> Enviar </button>
+								    </form>
 								</div>
 							</div>
 					</div>
