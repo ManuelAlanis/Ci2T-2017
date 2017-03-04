@@ -51,6 +51,9 @@ app.config(function($routeProvider) {
     .when("/programa", {
         templateUrl : "programa.html"
     })
+	.when("/talleres", {
+        templateUrl : "talleres.html"
+    })
     .when("/contact", {
         templateUrl : "contacto.html"
     });
