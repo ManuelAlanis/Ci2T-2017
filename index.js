@@ -15,12 +15,44 @@ app.config(function($routeProvider) {
     })
     .when("/papers", {
         templateUrl : "papers.html"
+    }).when("/pagos", {
+        templateUrl : "pagos.html"
+    })
+	.when("/fechas", {
+        templateUrl : "fechas.html"
+    })
+    .when("/articulo", {
+        templateUrl : "articulo.html"
     })
     .when("/extenso", {
         templateUrl : "extenso.html"
     })
+    .when("/hospedaje", {
+        templateUrl : "hospedaje.html"
+    })
+    .when("/costos", {
+        templateUrl : "costos.html"
+    })
+    .when("/conocer", {
+        templateUrl : "conocer.html"
+    })
+    .when("/privacidad", {
+        templateUrl : "privacidad.html"
+    })
+    .when("/sede", {
+        templateUrl : "sede.html"
+    })
+    .when("/ci2t", {
+        templateUrl : "ci2t.html"
+    })
     .when("/lineamientos", {
         templateUrl : "lineamientos.html"
+    })
+    .when("/programa", {
+        templateUrl : "programa.html"
+    })
+	.when("/talleres", {
+        templateUrl : "talleres.html"
     })
     .when("/contact", {
         templateUrl : "contacto.html"

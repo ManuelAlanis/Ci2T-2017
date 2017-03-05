@@ -1,0 +1,45 @@
+<style>
+	.text-center{
+		text-align: center;
+	}
+	.text-left{
+		text-align: left;
+	}
+	.text-white{
+		color: white;
+	}
+</style>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+	<h2>Pagos</h2>
+      <legend></legend>
+	<div class="row">
+		<div class="col-md-9">
+			<iframe class="col-md-12" src="https://docs.google.com/forms/d/e/1FAIpQLSdkfwyl8dNZRpzu3Iy84L_tXRORITBdPGqGc8P_G4rRexId8w/viewform?c=0&w=1" style="width: 100%;" height="900" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+		</div>
+		<div class="col-md-3">
+			<h2>Subir información de pago</h2>
+			<form class="contact_form form" name='formulario' id='formulario' method='post' action='upload.php' target='_self' enctype="multipart/form-data"> 
+			    <input class="form-control" placeholder="Escribe tu nombre completo" type='text' name='Nombre' id='Nombre'>
+			    <input  class="form-control" type='text' name='email' id='email' placeholder="Correo electrónico del primer autor">
+			    <input class="form-control message" placeholder="Asunto" type='text' name='asunto' id='asunto' / value="Información de pago" readonly="true">
+				
+				<p class="text-left lead"><strong>Ficha de pago</strong></p>
+			    <input class="form-control message" type='file' name='archivo1' id='archivo1' value="" readonly="true">
+
+				<p class="text-left lead"><strong>RFC</strong></p>
+			    <input class="form-control message" type='file' name='archivo2' id='archivo2' value="" readonly="true">
+			    <br>
+			    <button  style="font-size: 30px;" class="btn btn-large btn-success" type="submit" > Enviar </button>
+	    	</form>
+		</div>
+	</div>
+</div>
